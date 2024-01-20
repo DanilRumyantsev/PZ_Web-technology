@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/fon.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, span {
+    color: rgb(150, 5, 5);
+    font-weight: 700;
+}
+
+#chenonce h1{
+    color: green;
+    text-transform: uppercase;
+}
+
+.ambois p {
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+hr {
+    background: #000;
+    height: 2px;
+}
+
+.zamki {
+    text-align: center;
+}
+
+.right img{
+    float: right;
+    margin-left: 10px;
+}
+
+.left img{
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}

@@ -1,0 +1,71 @@
+body {
+    color: #009933;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    letter-spacing: 10px;
+}
+
+.kursive {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.indent {
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-size: 25px;
+    text-indent: 50px;
+}
+
+.rich {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+    line-height: 25px;
+}
+
+.perenos {
+    white-space: nowrap;
+}
+
+.red {
+    color: red;
+    text-transform: uppercase;
+}
+
+.myclass {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 200%;
+    text-decoration: underline;
+    text-indent: 75px;
+    line-height: 2;
+}
+
+.zagolovok1 {
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-style: italic;
+    color: red;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
+
+.zagolovok2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-transform: lowercase;
+    text-align: right;
+    letter-spacing: 10px;
+}
+
+.zagolovok3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+}
