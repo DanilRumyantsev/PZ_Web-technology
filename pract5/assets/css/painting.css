@@ -1,0 +1,41 @@
+body {
+    background-color:#f0d0d0;
+}
+
+caption {
+    color: #b06760;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+table {
+    border: 5px solid #fff;
+    border-style: outset;
+    margin: 0 auto;
+}
+
+.firsthalf, .secondhalf {
+    background-color: #b06760;
+    color: #fff;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #fff;
+    border-style: inset;
+    text-align: left;
+}
+
+a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s ;
+}

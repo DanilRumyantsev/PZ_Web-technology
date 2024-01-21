@@ -1,0 +1,29 @@
+body {
+    padding: 0 20px 0 20px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+caption {
+    background-color: #bfbfbf;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    color: #80400f;
+}
+
+a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s ;
+}

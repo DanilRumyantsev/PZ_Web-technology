@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/y.jpg);
+}
+
+table {
+    border: 10px solid #bfbfbf;
+    border-style: outset;
+    margin: 0 auto;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: 700;
+    color: #b01830;
+    padding: 0 0 10px 0;
+}
+
+tr {
+    border-collapse: collapse;
+    color: #b01830;
+}
+
+th {
+    background-color: #bfbfbf;
+    border: 1px solid #bfbfbf;
+    border-style: inset;
+    padding: 0 5px;
+}
+
+td {
+    border-collapse: collapse;
+    font-weight: 700;
+    border: 1px solid #bfbfbf;
+    border-style: inset;
+}
+
+a {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    transition: 0.5s ;
+}
