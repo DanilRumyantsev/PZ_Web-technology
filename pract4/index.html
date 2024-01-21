@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Практическая №4</title>
 </head>
 <body>
     <table>
         <caption>Меню ресторана "Ромашка"</caption>
+        <colgroup>
+            <col span="1" style="background-color: aquamarine;">
+            <col span="5" style="background-color: aqua;">
+        </colgroup>
         <tr>
-            <th row span="2"  class="name">Кухня</th>
-            <th col span="2">Холодные блюда</th>
-            <th></th>
-            <th col span="2">Горячие блюда</th>
-            <th></th>
-            <th row span="2">Десерты</th>
+            <th rowspan="2"  class="name">Кухня</th>
+            <th colspan="2">Холодные блюда</th>
+            <th colspan="2">Горячие блюда</th>
+            <th rowspan="2">Десерты</th>
         </tr>
         <tr>
-            <td></td>
             <td class="first">Салаты</td>
             <td class="first">Закуски</td>
             <td class="first">Первые блюда</td>
@@ -113,6 +120,5 @@
             <td>"Гамбовцы" дрожжевые с вишней</td>
         </tr>
     </table>
-        
 </body>
 </html>
