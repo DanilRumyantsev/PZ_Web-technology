@@ -1,0 +1,190 @@
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+.menu1 ul{
+	color: blue; 
+	list-style-position: inside;}
+.menu1 a:link, .menu1 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	}
+.menu1 a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.menu2 {
+    list-style-type: none;
+    width: 200px;
+}
+.menu2 li {
+    margin-bottom: 5px;
+}
+.menu2 a:link, .menu2 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid blue;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu2 a:hover{
+    font-weight: bold;
+}
+
+.menu3 {
+    list-style-type: none;
+    width: 200px;
+}
+.menu3 li {
+    margin-bottom: 5px;
+}
+.menu3 a:link, .menu3 a:visited {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+    font-size: 13px;
+	background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(59, 59, 59);
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu3 a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.menu4 {
+    position: relative;
+    list-style-type: none;
+    width: 200px;
+}
+.menu4 li {
+    margin-bottom: 5px;
+}
+.menu4 a:link, .menu4 a:visited {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+    font-size: 13px;
+	background-color: #0086ED;
+    border: 1px solid #fff;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu4 a:hover {
+    border: 1px solid blue;
+    background-color: #fff;
+    color: blue;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.menu4 a:hover img{
+    opacity: 1;
+}
+
+.menu4 img {
+    position: relative;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    float: right;
+}
+
+.menu5 ul li {
+    display: inline;
+    border: 1px solid blue;
+    text-decoration: none;
+    color: blue;
+}
+
+.menu5 a:link, .menu5 a:visited {
+	text-decoration: none;
+	color: blue;
+	font-family: Arial;
+    font-size: 13px;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+
+.menu5 a:hover {
+    color: red;
+}
+
+/* .menu5 {
+    position: relative;
+}
+
+.menu5 ul {
+    list-style-type: none;
+}
+.menu5 li {
+    margin-right: 4px;
+    float: left;
+}
+.menu5 a:link, .menu5 a:visited {
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 a:hover, .menu5 a.active {
+	color: red;
+} */
+
+.menu6 ul li {
+    display: inline;
+    text-decoration: none;
+    color: blue;
+}
+
+.menu6 a:link, .menu6 a:visited {
+	text-decoration: none;
+	color: blue;
+	font-family: Arial;
+    font-size: 13px;
+	padding: 0px 5px;
+	line-height: 30px;
+    border: 1px solid blue;
+}
+
+.menu6 a:hover {
+    color: #fff;
+    background-color: rgb(67, 67, 67);
+    border: 1px solid black;
+}
+
+.menu7 img {
+    width: 50px;
+    height: 50px;
+    float: top;
+}
+
+.menu7 ul li , p{
+    display: inline;
+}
+
+.menu7 a:link , .menu7 a:visited {
+    text-decoration: none;
+    color: grey;
+	font-family: Arial;
+    font-size: 13px;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+
+.menu7 a:hover {
+    color: blue;
+}
