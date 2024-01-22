@@ -166,6 +166,10 @@ ul{
     border: 1px solid black;
 }
 
+.menu7 {
+    position: relative;
+}
+
 .menu7 img {
     width: 50px;
     height: 50px;
@@ -187,4 +191,73 @@ ul{
 
 .menu7 a:hover {
     color: blue;
+}
+
+.menu8 {
+    height: 40px;  
+    width: 100%;  
+    background: orange;  
+    font-size: 16px;  
+    font-weight: bold;
+}
+
+.menu8 ul li {
+    display: inline;
+    float: left;
+}
+
+.menu8 a:link, .menu8 a:visited {
+    text-decoration: none;
+}
+
+.menu8 a {
+    color: #fff;  
+    display: inline-block;  
+    width: 100px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+}
+
+.menu8 a:hover , a:active {
+    background-color: red;
+}
+
+.calendar {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    color: rgb(82, 82, 82);
+}
+
+th {
+     color: rgb(82, 82, 82);
+}
+
+th:nth-child(6) {
+    color: grey;
+}
+
+th:nth-child(7) {
+    color: grey;
+}
+
+td:nth-child(6) {
+    color: grey;
+}
+
+td:nth-child(7) {
+    color: grey;
+}
+
+th {
+    border-bottom: 1px solid black;
+    margin-left: 0;
+}
+
+td:hover {
+    color: red;
 }
