@@ -261,3 +261,12 @@ th {
 td:hover {
     color: red;
 }
+
+.imgtop {
+    display: inline-block;
+}
+
+.imgtop img {
+    display: flex;
+    margin: 0 auto;
+}
