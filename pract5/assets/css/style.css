@@ -1,0 +1,116 @@
+.first{
+	height: 250px;
+}
+#elem1, #elem2, #elem3{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+#elem1{
+	border: 1px solid red;
+	left: 30px;
+	top: 30px;
+}
+#elem2{
+	border: 1px solid blue;
+	left: 100px;
+	top: 100px;
+}
+#elem3{
+	border: 1px solid green;
+	left: 170px;
+	top: 170px;
+}
+
+.second {
+    position: relative;
+    height: 250px;
+}
+
+.a, .b, .c {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.a {
+    border: 1px solid red;
+    top: 30px;
+    left: 10px;
+}
+
+.b {
+    border: 1px solid blue;
+    top: 30px;
+    left: 70px;
+}
+
+.c {
+    border: 1px solid green;
+    top: 30px;
+    left: 130px;
+}
+
+.third {
+    position: relative;
+    height: 250px;
+}
+
+.d, .e, .f {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.d {
+    border: 1px solid red;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.e {
+    border: 1px solid blue;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.f {
+    border: 1px solid green;
+    top: 90px;
+    left: 90px;
+    z-index: 3;
+}
+
+.fourth {
+    position: relative;
+    height: 250px;
+}
+
+.g, .i, .h {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.g {
+    background-color: rgb(244, 128, 128);
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+.i {
+    background-color: rgb(113, 113, 255);
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.h {
+    background-color: rgb(125, 255, 125);
+    top: 90px;
+    left: 90px;
+    z-index: 3;
+}

@@ -1,0 +1,142 @@
+body {
+    font-size: 23px;
+}
+
+.container {
+    width: 950px;
+    border: 1px solid black;
+    margin: 50px auto;
+    padding: 10px 50px 40px 50px;
+    text-align: justify;
+}
+
+.container_2 {
+    width: 800px;
+    margin: 50px auto;
+    border: 3px solid black;
+    padding: 20px 20px;
+}
+
+.container_3 {
+    width: 950px;
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+.num1 {
+    color: blue;
+}
+
+.num1_a {
+    text-align: right;
+}
+
+.num1_a a {
+    color: blue;
+    text-decoration: none;
+}
+
+hr {
+    border: 5px solid black;
+    padding-left: 0px;
+}
+
+.seo {
+    width: 460px;
+    height: 230px;
+    float: left;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+.usability {
+    width: 420px;
+    height: 250px;
+    float: left;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+.sait {
+    width: 400px;
+    height: 200px;
+    float: left;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+.container_2 h1, h2 {
+    text-align: center;
+}
+
+.container_2 h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.container_2 h2 {
+    color: rgb(255, 154, 171);
+}
+
+.num2_p {
+    font-size: 18px;
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.usb {
+    color: rgb(8, 198, 8);
+}
+
+.num2_a {
+    text-align: right;
+}
+
+.num2_a a {
+    color: rgb(255, 154, 171);
+    text-decoration: none;
+}
+
+.num3_p {
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: -25px;
+}
+
+.nav1 {
+    width: 950px;
+    background-color: rgb(59, 59, 59);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav1 ul {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav1 li {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    clear: both;
+}
+
+.nav1 a:link, .nav1 a:visited {
+    text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+    font-size: 18px;
+	background-color: rgb(59, 59, 59); 
+	display: block;
+	padding: 0px 5px;
+}
+
+.nav1 a:hover {
+    color: black;
+    background-color: #fff;
+}
