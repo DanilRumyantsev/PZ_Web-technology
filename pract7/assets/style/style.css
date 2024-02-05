@@ -19,7 +19,6 @@ body {
 
 .container_3 {
     width: 950px;
-    border: 1px solid black;
     margin: 50px auto;
 }
 
@@ -106,37 +105,193 @@ hr {
 }
 
 .nav1 {
-    width: 950px;
-    background-color: rgb(59, 59, 59);
-    margin-top: 0;
-    padding-top: 0;
+    height: 40px;  
+    width: 100%;  
+    background: rgb(59, 59, 59);  
+    font-size: 16px;  
+    font-weight: bold;
+    padding: 0;
+}
+
+.nav1 ul li {
+    display: inline;
+    float: left;
 }
 
 .nav1 ul {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.nav1 li {
-    display: inline-block;
-    list-style: none;
-}
-
-li {
-    clear: both;
+    padding-left: 0px;
 }
 
 .nav1 a:link, .nav1 a:visited {
     text-decoration: none;
-	color: #fff;
-	font-family: Arial;
-    font-size: 18px;
-	background-color: rgb(59, 59, 59); 
-	display: block;
-	padding: 0px 5px;
 }
 
-.nav1 a:hover {
-    color: black;
+.nav1 a {
+    color: #fff;  
+    display: inline-block;
+    text-decoration: none;  
+    line-height: 40px;
+    padding: 0 10px;
+    border-top: 1px solid black;
+}
+
+.nav1 a:hover , a:active {
     background-color: #fff;
+    color: black;
+}
+
+.web {
+    text-align: center;
+}
+
+.web_ind dl{
+    padding: 0 15px;
+}
+
+.web_ind h2 {
+    text-align: left;
+}
+
+.border {
+    border: 1px solid black;
+    border-top: 0;
+}
+
+.green_border {
+    border: 3px dashed green;
+    border-radius: 20px;
+    color: green;
+    padding: 0 15px;
+}
+
+.green_border h1 {
+    color: green;
+    text-align: center;
+}
+
+.green_border h2 {
+    color: green;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.green_border p {
+    text-align: right;
+    font-size: 23px;
+}
+
+.text-green {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.red_border {
+    color: red;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 0 30px;
+}
+
+.red_border h1, h2 {
+    text-align: left;
+    color: rgb(171, 1, 1);
+}
+
+.green-text {
+    color: green;
+}
+
+.descrip {
+    color: black;
+    text-align: right;
+    font-style: italic;
+}
+
+.nav2 {
+    height: 60px;  
+    width: 100%;  
+    background: orange;  
+    font-size: 16px;  
+    font-weight: bold;
+    padding: 0;
+}
+
+.nav2 ul {
+    padding-left: 0;
+}
+
+.nav2 ul li {
+    display: inline;
+    float: left;
+}
+
+.nav2 a:link, .nav2 a:visited {
+    text-decoration: none;
+}
+
+.nav2 a {
+    color: #fff;  
+    display: inline-block;
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;
+    padding: 10px 15px;
+    height: 60px;
+}
+
+.nav2 a:hover , a:active {
+    background-color: #fff;
+    color: orange;
+}
+
+.orange-border {
+    border: 2px solid orange;
+    border-top: 0;
+    color: orange;
+}
+
+.orange-border h1, p {
+    padding: 0 15px;
+}
+
+.orange-border h1, h2 {
+    color: rgb(136, 91, 7);
+    text-align: center;
+}
+
+.nav3 {
+    height: 60px;  
+    width: 100%;  
+    background: #fff;  
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 0 210px;
+}
+
+.nav3 ul {
+    margin: 0 auto;
+}
+
+.nav3 ul li {
+    display: inline;
+    float: left;
+}
+
+.nav3 a:link, .nav3 a:visited {
+    text-decoration: none;
+}
+
+.nav3 a {
+    color: rgb(136, 91, 7);  
+    display: inline-block;
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;
+    padding: 10px 15px;
+}
+
+.nav3 a:hover , a:active {
+    background-color: orange;
+    color: #fff;
 }
