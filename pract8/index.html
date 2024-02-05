@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Практическая №8</title>
+</head>
+<body>
+    <div class="checks">
+        <form>
+            <input type="text" placeholder="placeholder"><br>
+            <input type="text" value="value"><br>
+            <input type="text" value="disabled" disabled><br>
+            <input type="password" value="123456"><br>
+            <textarea placeholder="Введите текст"></textarea><br>
+            <input type="submit" value="Через input"><br>
+            <button type="submit">Через button</button>
+        </form>
+    </div>
+    <hr>
+    <div class="checks">
+        <form>
+            <input id="place" type="text" placeholder="placeholder">
+            <label for="place">переход к полю</label><br>
+            <button>Отправить на сервер</button>
+        </form>
+    </div>
+    <hr>
+    <div class="checks">
+        <form>
+            <label for="check1"><input id="check1" type="checkbox">Подтверждение чекбокса</label><br>
+            <label><input type="checkbox" checked>Отмечен по умолчанию</label><br>
+            <label><input type="checkbox" checked disabled>Disabled</label>
+        </form>
+        <div class="radios">
+            <label>Может быть отмечена только одна из них</label><br>
+            <label><input name="rad1" type="radio" checked value="1">Метка для радио</label><br>
+            <label><input name="rad1" type="radio" value="2">Метка для радио</label>
+        </div>
+        <button>Отправить на сервер</button>
+    </div>
+    <hr>
+    <div class="checks">
+        <select>
+            <option selected>Нью-Йорк</option>
+            <option>Москва</option>
+            <option>Лондон</option>
+            <option>Минск</option>
+        </select>
+        <select multiple name="city[]">
+            <option selected>Нью-Йорк</option>
+            <option>Москва</option>
+            <option>Лондон</option>
+            <option>Минск</option>
+        </select>
+        <select multiple name="city[]">
+            <option selected>Нью-Йорк</option>
+            <option>Москва</option>
+            <option>Лондон</option>
+            <option>Минск</option>
+            <option>Варшава</option>
+        </select>
+        <button>Отправить на сервер</button>
+    </div>
+    <hr>
+    <div class="checks">
+        <input type="file">
+        <button>Отпрвить на сервер</button>
+    </div>
+    <hr>
+    <div class="checks">
+        <form>
+            <fieldset>
+                <legend>Выберите кнопочку</legend>
+                <input type="radio" name="check2" checked value="1">
+                <input type="radio" name="check2" value="2">
+                <input type="radio" name="check2" value="3">
+                <input type="text" placeholder="Ваше имя...">
+            </fieldset>
+            <fieldset>
+                <legend>Выберете еще одну кнопочку</legend>
+                <input type="radio" name="check3" checked value="1">
+                <input type="radio" name="check3" value="2">
+                <input type="radio" name="check3" value="3">
+                <input type="radio" name="check3" value="4">
+            </fieldset>
+            <button class="but">Отправить на сервер</button>
+        </form>
+    </div>
+    <div class="checks">
+        <form class="last">
+            <textarea>Ограничена ширина и высота</textarea><br>
+            <textarea></textarea><br>
+            <textarea></textarea><br>
+            <textarea></textarea>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+hr {
+    border: 5px solid black;
+}
+
+textarea {
+    resize: none;
+}
+
+.checks {
+    border: 1px dashed black;
+    padding: 15px 15px;
+    line-height: 2;
+}
+
+.radios {
+    border: 1px solid black;
+    padding: 15px 15px;
+    line-height: 2;
+}
+
+.but {
+    margin-top: 40px;
+}
+
+button {
+    background-color: bisque;
+    border: 2px solid burlywood;
+    border-style: outset;
+}
+
+button:hover {
+    background-color: burlywood;
+    border-style: inset;
+}
+
+.last textarea{
+    width: 250px;
+    height: 150px;
+}
