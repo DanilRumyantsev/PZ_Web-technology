@@ -2,8 +2,16 @@ hr {
     border: 5px solid black;
 }
 
-textarea {
+.resnone {
     resize: none;
+}
+
+.hor {
+    resize: horizontal;
+}
+
+.ver {
+    resize: vertical;
 }
 
 .checks {

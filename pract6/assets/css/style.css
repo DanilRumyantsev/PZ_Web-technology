@@ -9,7 +9,9 @@ ul{
 
 .menu1 ul{
 	color: blue; 
-	list-style-position: inside;}
+	list-style-position: inside;
+}
+
 .menu1 a:link, .menu1 a:visited{
 	text-decoration: none;
 	color: blue;
@@ -122,28 +124,6 @@ ul{
 .menu5 a:hover {
     color: red;
 }
-
-/* .menu5 {
-    position: relative;
-}
-
-.menu5 ul {
-    list-style-type: none;
-}
-.menu5 li {
-    margin-right: 4px;
-    float: left;
-}
-.menu5 a:link, .menu5 a:visited {
-	text-decoration: none;
-	color: blue;
-	font: 13px Arial;
-	border: 1px solid #1A31A2;
-	padding: 5px;
-}
-.menu5 a:hover, .menu5 a.active {
-	color: red;
-} */
 
 .menu6 ul li {
     display: inline;

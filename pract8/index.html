@@ -54,12 +54,20 @@
             <option>Лондон</option>
             <option>Минск</option>
         </select>
-        <select multiple name="city[]">
-            <option selected>Нью-Йорк</option>
-            <option>Москва</option>
-            <option>Лондон</option>
-            <option>Минск</option>
-            <option>Варшава</option>
+        <select>
+            <optgroup>
+                <option selected>Нью-Йорк</option>
+                <option>Москва</option>
+                <option>Лондон</option>
+                <option>Минск</option>
+                <option>Варшава</option>
+            </optgroup>
+            <optgroup>
+                <option selected>Нью-Йорк</option>
+                <option>Москва</option>
+                <option>Лондон</option>
+                <option>Минск</option>
+            </optgroup>
         </select>
         <button>Отправить на сервер</button>
     </div>
@@ -91,9 +99,9 @@
     <div class="checks">
         <form class="last">
             <textarea>Ограничена ширина и высота</textarea><br>
-            <textarea></textarea><br>
-            <textarea></textarea><br>
-            <textarea></textarea>
+            <textarea class="resnone"></textarea><br>
+            <textarea class="hor"></textarea><br>
+            <textarea class="ver"></textarea>
         </form>
     </div>
 </body>
