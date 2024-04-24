@@ -1,0 +1,260 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 1250px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.container > div {
+    margin: 20px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 0.3fr;
+    grid-template-rows: repeat(6, 58.5px);
+    box-shadow: 10px 10px 10px rgb(129, 127, 127);
+    border-radius: 15px;
+}
+
+.grid1 > div {
+    border: 3px solid black;
+}
+
+.g1 {
+    grid-column: span 2;
+    background-color: red;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.g4 {
+    border-radius: 0px 10px 0px 0px;
+}
+
+.g5 {
+    grid-column: span 2;
+}
+
+.g6 {
+    grid-column: span 2;
+}
+
+.g7 {
+    grid-row: span 2;
+}
+
+.g8 {
+    grid-column: span 2;
+}
+
+.g9 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: blue;
+}
+
+.g10 {
+    grid-column: span 2;
+    background-color: black;
+}
+
+.g11 {
+    grid-row: span 2;
+    background-color: yellow;
+}
+
+.g12 {
+    grid-row: span 2;
+    border-radius: 0px 0px 0px 10px;
+    background-color: yellow;
+}
+
+.g13 {
+    grid-row: span 2;
+}
+
+.g14 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: red;
+}
+
+.g15 {
+    border-radius: 0px 0px 10px 0px;
+}
+
+.grid2 {
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 50px 100px 150px 75px 90px 120px;
+    grid-template-rows: 1fr repeat(4, 70px) 50px;
+    box-shadow: 10px 10px 10px rgb(129, 127, 127);
+}
+
+.grid2 > div {
+    border: 3px solid black;
+}
+
+.gh1 {
+    grid-column: span 3;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.gh2 {
+    grid-column: span 3;
+    background-color: yellow;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.gh3 {
+    grid-column: span 3;
+    grid-row: span 4;
+    background-color: red;
+}
+
+.gh4 {
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: yellow;
+}
+
+.gh5 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.gh6 {
+    grid-row: span 2;
+}
+
+.gh7 {
+    background-color: black;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.gh8 {
+    grid-column: span 2;
+}
+
+.gh9 {
+    grid-column: span 3;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.grid3 {
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 0.5fr 0.7fr 1fr 0.4fr;
+    grid-template-rows: 0.4fr repeat(5, 1fr);
+    box-shadow: 10px 10px 10px rgb(129, 127, 127);
+}
+
+.grid3 > div {
+    border: 3px solid black;
+}
+
+.gj1 {
+    grid-column: span 2;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.gj3 {
+    border-radius: 0px 10px 0px 0px;
+    background-color: black;
+}
+
+.gj4 {
+    grid-row: span 2;
+}
+
+.gj5 {
+    grid-row: span 2;
+}
+
+.gj6 {
+    grid-column: span 2;
+    grid-row: span 4;
+    background-color: blue;
+}
+
+.gj7 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: yellow;
+}
+
+.gj8 {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.gj9 {
+    background-color: black;
+}
+
+.gj10 {
+    grid-column: span 2;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.grid4 {
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.25fr;
+    grid-template-rows: repeat(5, 1fr) 0.6fr;
+    box-shadow: 10px 10px 10px rgb(129, 127, 127);
+}
+
+.grid4 > div {
+    border: 3px solid black;
+}
+
+.gk1 {
+    grid-row: span 3;
+    background-color: red;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.gk2 {
+    grid-column: span 2;
+    background-color: yellow;
+}
+
+.gk3 {
+    grid-row: span 2;
+    background-color: red;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.gk4 {
+    grid-row: span 2;
+}
+
+.gk5 {
+    grid-row: span 2;
+}
+
+.gk8 {
+    grid-column: span 2;
+}
+
+.gk9 {
+    grid-row: span 2;
+}
+
+.gk11 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: blue;
+}
+
+.gk12 {
+    background-color: black;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.gk13 {
+    background-color: yellow;
+    border-radius: 0px 0px 10px 0px;
+}
