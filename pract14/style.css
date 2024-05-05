@@ -1,0 +1,330 @@
+.container {
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px auto;
+	padding: 10px;
+}
+
+.container__spec {
+	width: 980px;
+	height: 300px;
+	overflow: hidden;
+	border: 1px solid black;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+@keyframes anim1 {
+	from {
+        margin-left: 3px;
+    }
+
+	to {
+        margin-left: 400px;
+    }
+}
+.d1 {
+	animation: anim1 4s 3;
+}
+
+.d1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 65px;
+    border: 1px solid red;
+}
+
+@keyframes move {
+	0% {
+		margin-left: 0px;
+	}
+
+	50% {
+		margin-left: 400px;
+	}
+
+	100% {
+		margin-left: 0px;
+	}
+}
+
+.d2 {
+	animation-duration: 3s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	border: 1px solid red;
+	width: 50px;
+	height: 50px;
+    margin-top: 65px;
+}
+
+@keyframes bg {
+	0% {
+		background-color: red;
+	}
+
+	50% {
+		background-color: white;
+	}
+
+	100% {
+		background-color: red;
+	}
+}
+
+.d3{
+	animation-name: move, bg;
+	animation-duration: 3s, 3s;
+	animation-iteration-count: infinite, infinite;
+	animation-timing-function: ease, ease;
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	margin-top: 65px;
+}
+
+@keyframes anim {
+	0% {
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+	25% {
+		margin-left: 95%;
+		margin-top: 0%;
+	}
+	50% {
+		margin-left: 95%;
+		margin-top: 25%;
+	}
+	75% {
+		margin-left: 0%;
+		margin-top: 25%;
+	}
+	100% {
+		margin-left: 0%;
+		margin-top: 0%;
+	}
+}
+
+.d4 {
+	-webkit-animation-name: anim;
+	animation-name: anim;
+	animation-duration: 8s;
+	animation-delay: 30;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+}
+.d4 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+.d5 {
+	-webkit-animation-name: anim, bg;
+	animation-name: anim, bg;
+	animation-duration: 8s, 4s;
+	animation-delay: 30, 30;
+	animation-direction: normal, reverse;
+	animation-iteration-count: infinite, infinite;
+	animation-timing-function: ease, ease-in;
+}
+
+.d5 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+@keyframes anim2 {
+	0% {
+		margin-left: 20%;
+		margin-top: 12%;
+	}
+
+	50% {
+		margin-left: 75%;
+		margin-top: 12%;
+	}
+
+	100% {
+		margin-left: 20%;
+		margin-top: 12%;
+	}
+}
+
+.d6 {
+	-webkit-animation-name: anim2;
+	animation-name: anim2;
+	animation-duration: 6s;
+	animation-delay: 20;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+
+}
+
+.d6 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+.d7 {
+	-webkit-animation-name: anim2;
+	animation-name: anim2;
+	animation-duration: 6s;
+	animation-delay: 20;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+
+}
+
+.d7 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid red;
+}
+
+@keyframes test{
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 100%;
+	}
+}
+
+.wrap {
+	margin: 125px auto;
+	width: 50%;
+	height: 30px;
+	border: 1px solid red;
+
+}
+
+.d8 {
+	background: red;
+	width: 0%;
+	height: 30px;
+	-webkit-animation: test 5s ease-in-out 1 forwards;
+	animation: test 5s ease-in-out 1 forwards;
+}
+
+@keyframes test1 {
+	0% {
+		width: 0%;
+	}
+
+	100% {
+		width: 50%;
+	}
+}
+
+.d9 {
+	background: red;
+	width: 0%;
+	height: 30px;
+	-webkit-animation: test1 5s ease-in-out 1 forwards;
+	animation: test1 5s ease-in-out 1 forwards;
+}
+
+#anim{
+	animation-play-state: paused;
+	animation-duration: 6s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	border: 1px solid black;
+	width: 100px;
+	height: 50px;
+	margin-top: 100px;
+}
+
+#anim:hover {
+	animation-play-state:running;
+	border: 1px solid red;
+}
+
+#hover-me {
+	animation-play-state: paused;
+	animation-duration: 6s;
+	animation-name: move;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	margin-top: 100px;
+}
+
+#anim1 {
+	width: 500px;
+	height: 50px;
+	border: 2px solid black;
+	text-align: center;
+	padding-top: 30px;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+#anim1:hover + #hover-me {
+	animation-play-state: running;
+	border: 1px solid red;
+}
+
+@keyframes bouncing {
+
+	40%, 70%, 90% {
+		animation-timing-function: ease-out;
+		bottom: 0;
+	}
+
+	0% {
+		bottom: 200px;
+		left: 0;
+		animation-timing-function: ease-in;
+	}
+
+	55% {
+		bottom: 50px;
+		animation-timing-function: ease-in;
+	}
+
+	80% {
+		bottom: 25px;
+		animation-timing-function: ease-in;
+	}
+
+	95% {
+		bottom: 10px;
+		animation-timing-function: ease-in;
+	}
+
+	100% {
+		left: 110px;
+		bottom: 0;
+		animation-timing-function: ease-out;
+	}
+}
+
+
+#wrapper {
+	position: relative;
+	margin: 0px auto;
+	width: 220px;
+	height: 220px;
+	border: 1px solid red;
+}
+
+#ball {
+	background: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: absolute;
+	animation: bouncing 5s infinite;
+}
