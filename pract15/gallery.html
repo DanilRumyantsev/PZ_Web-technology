@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="/pract15/assets/highslide/highslide/highslide-with-gallery.js"></script>
+    <link rel="stylesheet" type="text/css" href="/pract15/assets/highslide/highslide/highslide.css"/>
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <!--
+        2) Optionally override the settings defined at the top
+        of the highslide.js file. The parameter hs.graphicsDir is important!
+    -->
+
+    <script type="text/javascript">
+    hs.graphicsDir = '/pract15/assets/highslide/highslide/graphics/';
+    hs.align = 'center';
+    hs.transitions = ['expand', 'crossfade'];
+    hs.outlineType = 'rounded-white';
+    hs.fadeInOut = true;
+    //hs.dimmingOpacity = 0.75;
+
+    // Add the controlbar
+    hs.addSlideshow({
+        //slideshowGroup: 'group1',
+        interval: 5000,
+        repeat: false,
+        useControls: true,
+        fixedControls: 'fit',
+        overlayOptions: {
+            opacity: .75,
+            position: 'bottom center',
+            hideOnMouseOut: true
+        }
+    });
+    </script>
+</head>
+<body>
+
+    <header class="header1">
+        <div class="container__header1">
+            <nav class="nav__header1">
+                <p class="caption__nav1">Содержание</p>
+                <ul>
+                    <li><a href="./index.html" class="link__header_item1">На главную</a></li>
+                    <li><a href="./history.html" class="link__header_item1">История лилий</a></li>
+                    <li><a href="./gallery.html" class="link__header_item1">Фотогалерея</a></li>
+                    <li><a href="./contact.html" class="link__header_item1">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="intro">
+        <p class="intro__p">Фотогалерея</p>
+        <div class="intro__caption">
+            <p>Лилия - это символ надежды в Древней Греции, мира и непорочности на Руси,
+                а во Франции эти цветы обозначали - милосердие, сострадание и правосудие.</p>
+        </div>
+        <hr style="width: 700px;">
+    </div>
+
+    <section class="gallery">
+        <div class="highslide-gallery">
+
+            <a href="./assets/images/7265.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7265.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+            <!-- Repetionion of the above -->
+            <a href="./assets/images/7267.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7267.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+            <a href="./assets/images/7268.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7268.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="highslide-gallery">
+
+            <a href="./assets/images/7269.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7269.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+            <!-- Repetionion of the above -->
+            <a href="./assets/images/7270.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7270.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+            <a href="./assets/images/7271.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7271.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="highslide-gallery">
+
+            <a href="./assets/images/7275.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7275.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+            <!-- Repetionion of the above -->
+            <a href="./assets/images/7277.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7277.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+            <a href="./assets/images/7285.jpg" class="highslide" onclick="return hs.expand(this)">
+                <img src="./assets/images/7285.small.png" alt="Highslide JS" title="Click to enlarge" />
+            </a>
+    
+        </div>
+    </section>
+
+</body>
+</html>

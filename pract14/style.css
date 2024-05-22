@@ -127,7 +127,7 @@
 	animation-name: anim, bg;
 	animation-duration: 8s, 4s;
 	animation-delay: 30, 30;
-	animation-direction: normal, reverse;
+	animation-direction: normal, normal;
 	animation-iteration-count: infinite, infinite;
 	animation-timing-function: ease, ease-in;
 }
@@ -278,15 +278,15 @@
 
 @keyframes bouncing {
 
-	40%, 70%, 90% {
-		animation-timing-function: ease-out;
-		bottom: 0;
-	}
-
 	0% {
 		bottom: 200px;
 		left: 0;
 		animation-timing-function: ease-in;
+	}
+
+	40% {
+		animation-timing-function: ease-out;
+		bottom: 0;
 	}
 
 	55% {
@@ -294,9 +294,19 @@
 		animation-timing-function: ease-in;
 	}
 
+	70% {
+		animation-timing-function: ease-out;
+		bottom: 0;
+	}
+
 	80% {
 		bottom: 25px;
 		animation-timing-function: ease-in;
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		bottom: 0;
 	}
 
 	95% {

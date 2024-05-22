@@ -1,0 +1,45 @@
+.form-container {
+    width: 400px;
+    margin: 50px auto 0 auto;
+}
+
+form /* ����� � ����� ����� */ {
+    font-family:Arial, Helvetica, sans-serif; /* ���������, ����� ����� ����� ��������������, ������ ������ Arial */
+    font-size:12px; /* ������ ������ 12 �������� */
+    padding:10px; /* ������� ������ ����� ������� 10 �������� */
+    border: 1px solid #ddd; /* �������� ����� ������ ����� ������� 1 ������� � ������ #ddd */
+    border-top: 0px; /* �������, ��� ������ ����� �� ������ ���� */
+    width:350px; /* ������ 350 �������� */
+    background:#eee; /* ������� ���� ����� #eee */
+}
+form .input /* ����� ��� ������ input */ {
+    width: 230px; /* ����� 230 �������� */
+    border: 1px solid #ddd; /* �������� ����� ������ ������� 1 ������� � ������ #ddd */
+}
+form textarea /* ����� � ���� textarea */ {
+    width: 230px; /* ������ 230 �������� */
+    border: 1px solid #ddd; /* �������� ����� ������ ������� 1 ������� � ������ #ddd */
+}
+.n /* ����� � ������ n */ {
+    font-size:12px; /* ������ ������ 12 �������� */
+    font-family:Arial, Helvetica, sans-serif; /* ���������, ����� ����� ����� ��������������, ������ ������ Arial */
+    color:#333; /* ���� ������ #333 */
+    text-align:center; /* ������������ ������ */
+    background:#fff; /* ������� ���� #fff */
+    width:360px; /* ������ 360 �������� */
+    padding:5px; /* ������� �� ���� ����� �������� 5 �������� */
+    border:1px solid #ddd; /* �������� ����� ������ ������� 1 ������� � ������ #ddd */
+}
+
+.contact__h {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #001f58;
+}
+
+.form__caption {
+    color: #001f58;
+}

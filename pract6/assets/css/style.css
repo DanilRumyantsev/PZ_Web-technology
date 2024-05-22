@@ -260,3 +260,17 @@ td:hover {
     height: 50px;
     margin: 0 auto;
 }
+
+svg {
+    *[fill] {
+        fill: currentColor;
+    }
+
+    *[storke] {
+        fill: currentColor;
+    }
+}
+
+.airpalne22 svg {
+    fill: red;
+}

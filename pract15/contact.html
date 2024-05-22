@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/form.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container__header">
+            <nav class="nav__header">
+                <p class="caption__nav">Содержание</p>
+                <ul>
+                    <li><a href="./index.html" class="link__header_item">На главную</a></li>
+                    <li><a href="./history.html" class="link__header_item">История лилий</a></li>
+                    <li><a href="./gallery.html" class="link__header_item">Фотогалерея</a></li>
+                    <li><a href="./contact.html" class="link__header_item">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contact__h">
+        <p>Контактная информация</p>
+    </div>
+
+    <div class="form-container">
+
+        <p class="form__caption">Магазин "Лилия" расположен по адресу:<br>г.Ростов-на-Дону ул.Пушкинская 120</p>
+        <p class="form__caption">Контактный телефон:<br>2-354-987, 8945123456</p>
+        <p class="form__caption">Директор магазина - \\ укажите свои Ф. И. О \\</p>
+
+        <div class="n">Форма обратной связи</div>
+            <form name="MyForm" action="send.php" method="post">
+                <table>
+                    <tr>
+                        <td>Ваше имя:</td>
+                        <td><input class="input" name="name" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td>Эл. почта:</td>
+                        <td><input class="input" name="email" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td>Тема:</td>
+                        <td><input class="input" name="sub" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Текст сообщения:</td>
+                        <td><textarea name="body" rows="5"></textarea></td>
+                    </tr>
+                    <tr><td><input value="Отправить" type="submit" /></td></tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
