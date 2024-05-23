@@ -14,7 +14,7 @@ lang : {
 	loadingTitle : 'Click to cancel',
 	focusTitle : 'Click to bring to front',
 	fullExpandTitle : 'Expand to actual size (f)',
-	creditsText : 'Powered by <i>Highslide JS</i>',
+	creditsText : 'Выполнено Румянцевым Д.А.',
 	creditsTitle : 'Go to the Highslide JS homepage',
 	previousText : 'Previous',
 	nextText : 'Next', 
@@ -53,7 +53,7 @@ padToMinWidth : false, // pad the popup width to make room for wide caption
 fullExpandPosition : 'bottom right',
 fullExpandOpacity : 1,
 showCredits : true, // you can set this to false if you want
-creditsHref : 'http://highslide.com/',
+creditsHref : 'https://github.com/DanilRumyantsev/PZ_Web-technology/tree/master',
 creditsTarget : '_self',
 enableKeyListener : true,
 openerTagNames : ['a'], // Add more to allow slideshow indexing
