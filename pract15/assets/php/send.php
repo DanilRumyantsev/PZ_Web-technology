@@ -6,7 +6,7 @@
  if (isset($_POST['body'])) {$body = $_POST['body'];}
 
 /* ���� ������� ���� ��. ����� */
- $address = "------@mail.ru";
+ $address = "danilrumancev74@mail.ru";
 
 /* � ����� ������������� ����� ���������, \n - ������� ������ */
  $mes = "���: $name \nE-mail: $email \n����: $sub \n�����: $body";
