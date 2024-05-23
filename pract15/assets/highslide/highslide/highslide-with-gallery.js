@@ -15,7 +15,7 @@ lang : {
 	focusTitle : 'Click to bring to front',
 	fullExpandTitle : 'Expand to actual size (f)',
 	creditsText : 'Выполнено Румянцевым Д.А.',
-	creditsTitle : 'Go to the Highslide JS homepage',
+	creditsTitle : 'Перейти на мой GitHub',
 	previousText : 'Previous',
 	nextText : 'Next', 
 	moveText : 'Move',
