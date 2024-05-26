@@ -1,0 +1,204 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container1 {
+    width: 600px;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: tan;
+    color: black;
+    border: 3px solid black;
+}
+
+.container2 {
+    width: 600px;
+    margin: 5px auto;
+    padding: 10px;
+    color: black;
+    border: 3px solid black;
+}
+
+.container3 {
+    width: 600px;
+    margin: 5px auto;
+    padding: 10px;
+    color: black;
+    border: 3px solid black;
+}
+
+.container4 {
+    width: 600px;
+    margin: 5px auto;
+    padding: 10px;
+    color: black;
+    border: 3px solid black;
+}
+
+.container5 {
+    width: 600px;
+    padding: 10px;
+    margin: 5px auto;
+    color: black;
+    border: 3px solid black;
+    font-family: Arial;
+}
+
+.container6 {
+    width: 600px;
+    padding: 10px;
+    margin: 5px auto;
+    color: black;
+    border: 3px solid black;
+    font-family: Arial;
+    background-color: lightgreen;
+}
+
+.container7 {
+    width: 600px;
+    padding: 10px;
+    margin: 5px auto;
+    color: black;
+    border: 3px solid black;
+    font-family: Arial;
+}
+
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  /* Создайте четыре одинаковых столбца, расположенных рядом друг с другом */
+  .column1 {
+    flex: 25%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+
+  .column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 15%;
+    padding: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.example {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.example1 {
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .container1 {
+        background-color: blue;
+        color: white;
+    }
+
+    .container3 {
+        width: 600px;
+    }
+
+    .column {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+ 
+
+@media screen and (max-width: 600px) {
+    .container1 {
+        background-color: olive;
+        color: white;
+    }
+
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+
+    .container3 {
+        width: 600px;
+    }
+
+    .column {
+        width: 70%;
+    }
+
+    .example {
+        font-size: 30px;
+    }
+
+    .column1 {
+        flex: 100%;
+        max-width: 100%;
+    }
+  
+}
+
+@media screen and (min-width: 600px) {
+    .example {
+        font-size: 80px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .container6 {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width: 600px) {
+    .example1 {
+        font-size: 50px;
+        padding: 50px;
+        border: 8px solid black;
+        background: yellow;
+    }
+}

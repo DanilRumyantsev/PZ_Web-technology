@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок / логотипа */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Стиль верхней панели навигации */
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+/* Стиль ссылок панели навигации */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Изменение цвета при наведении */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Контейнер столбца */
+.row {  
+    display: flex;
+}
+
+/* Создайте две неравные колонки, которые сидят рядом друг с другом */
+/* Боковая панель / левый столбец */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Главная колонка */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Поддельные изображения, только для этого примера */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+  /* Подвал */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+  /* Отзывчивый макет когда экран меньше, чем 700 пикселей в ширину, сделать два столбца стека друг на друга, а не рядом друг с другом */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}

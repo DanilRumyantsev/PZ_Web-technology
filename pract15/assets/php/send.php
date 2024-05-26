@@ -1,8 +1,8 @@
 <?php
  /* ����� ����������� ������������� ���������� */
- if (isset($_POST['name'])) {$name = $_POST['name'];}
- if (isset($_POST['email'])) {$email = $_POST['email'];}
- if (isset($_POST['sub'])) {$sub = $_POST['sub'];}
+ if (isset($_POST['name'])){$name = $_POST['name'];}
+ if (isset($_POST['email'])){$email = $_POST['email'];}
+ if (isset($_POST['sub'])){$sub = $_POST['sub'];}
  if (isset($_POST['body'])) {$body = $_POST['body'];}
 
 /* ���� ������� ���� ��. ����� */
