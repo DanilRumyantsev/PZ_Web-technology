@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    margin: 20px auto;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+button {
+    width: 600px;
+    height: 200px;
+    background-color: rgb(9, 16, 54);
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.5s;
+    border: none;
+}
+
+.fourth {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.p_fourth {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgb(18, 31, 106);
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.394);
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: rgb(15, 26, 91);
+    box-shadow: 4px 6px 6px rgb(0, 157, 255);
+    transition: 0.5s;
+}
+
+#demo {
+    font-weight: 700;
+    color: blue;
+}
